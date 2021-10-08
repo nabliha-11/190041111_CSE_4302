@@ -14,7 +14,7 @@ int main()
 
     }
     vector<int>v(10);
-
+    //merge??
     merge(a,a+5,s.begin(),s.end(),v.begin());
      for (auto i = v.begin(); i != v.end(); ++i)
         cout << *i << " ";

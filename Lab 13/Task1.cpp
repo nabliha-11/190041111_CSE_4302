@@ -18,5 +18,6 @@ int main()
     merge(a,a+5,s.begin(),s.end(),v.begin());
      for (auto i = v.begin(); i != v.end(); ++i)
         cout << *i << " ";
+    //iterator;
     return 0;
 }

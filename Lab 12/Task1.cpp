@@ -24,6 +24,11 @@ public:
     }
     T pop()
     {
+        if(isempty)
+        {
+            cout<<"underflow"<<endl;
+            return;
+        }
        T temp=s[top];
        top--;
        return temp;
